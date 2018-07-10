@@ -11,6 +11,8 @@
 
   header {
     padding: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-bottom: 10px;
     color: rgb(107, 107, 107);
     background: rgb(230, 228, 228);
@@ -18,41 +20,62 @@
 
   #nav {
     padding: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-bottom: 10px;
-    width: 100%;
     color: rgb(107, 107, 107);
     background-color: rgb(230, 228, 228);
   }
 
   #section {
     float: left;
-    width: 69%;
-    padding: 50px;
-    margin-bottom: 10px;
+    width: 55%;
+    margin-left: 100px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     color: rgb(107, 107, 107);
     background: rgb(230, 228, 228);
   }
 
-  #aside {
-    float: right;
-    width: 30%; 
-    padding: 200px;
-    margin-bottom: 10px;
+  #headers {
+    padding: 20px;
+    margin-top: 22px;
+    color: rgb(107, 107, 107);
+    background: rgb(230, 228, 228);
+  }
+
+  #paragraphs {
+    padding: 20px;
+    margin-top: 12px;
     color: rgb(107, 107, 107);
     background: rgb(230, 228, 228);
   }
 
   #article {
-      padding:100px;
-      margin-bottom: 10px;
-      background: rgb(107, 107, 107);
-      color: rgb(230, 228, 228);
+    padding:40px;
+    margin-top: 30px;
+    background: rgb(107, 107, 107);
+    color: rgb(230, 228, 228);
+}
+
+  #aside {
+    float: right;
+    width: 29%; 
+    padding: 180px;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgb(107, 107, 107);
+    background: rgb(230, 228, 228);
   }
 
   footer {
     padding: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-bottom: 10px;
     color: rgb(107, 107, 107);
-    clear:both;
     background: rgb(230, 228, 228);
-  }  
+    clear:both;
+  } 
